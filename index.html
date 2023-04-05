@@ -18,10 +18,60 @@
   </head>
   <body>
     <header></header>
-    <main class="main container">
+    <main class=" container">
       
-      <section >
+      
+        <div class="row d-flex justify-content-md-end mt-5 " >
+          <table class=" col-2 ">
+            
+            <thead class="">
+              <tr>
+                <th colspan="3" class="titulo">Partidas</th>
+              </tr>
+              <tr class="">
+                
+                <th >Ganadas</th>
+                <th >Empate</th>
+                <th >Perdidas</th>
+              </tr>
+            </thead>
+            <tbody class="">
+              <tr class="">
+                
+                <td  id="puntosJugados">0</td>
+
+                <td id="puntosEmpate">0</td>
+                <td id="puntosPerdida">0</td>
+              </tr>
+              
+            </tbody>
+          </table>
+
+          <h1>Piedra | Papel | Tijeras</h1>
+       
+       
+          <h2>Elije un ataque</h2>
+        <div class="row">
+          <div class="col-6">
+            <img id="btnPiedra" class="btnAtaques" src="img/Piedra.png" alt="">
+            <img id="btnPapel" class="btnAtaques" src="img/Papel.PNG" alt="">
+            <img id="btnTijeras" class="btnAtaques" src="img/Tijeras.PNG" alt="">
+          </div>
+        </div>
+        </div>
+        <div>
+          <p id="msjBatalla" class="textMensajes"> </p>
+        <div id="campoBatalla" class="campoBatalla col-6">
+         
+          <div id="imgAtaqueJugador" class="cajaBatala"></div>
+          <div class="cajaBatala"><p class="textMensajes">VS</p></div>
+          <div id="imgAtaquePc" class="cajaBatala"></div>
+          <div>
+        </div>
+      
+        </div>
         
+      </div>
       </section>
       <footer></footer>
     </main>
@@ -30,6 +80,6 @@
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/ejercicio6.js"></script>
+    <script src="./js/piedraPapelTijeras.js"></script>
   </body>
 </html>

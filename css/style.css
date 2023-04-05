@@ -1,22 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-   
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
 body{
-    background-color: rgb(149, 161, 179);
-}
-.main{
+    font-family: 'Josefin Sans', sans-serif;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+}
+main{
     height: 100vh;
-    width: 100%;
+}
+.contenedorTabla{
+    display: flex;
+    justify-content: end;
+    background-color: red;
+}
+th ,td{
+    background-color: rgb(204, 204, 204);
+    width: 100px;
+    height: 0px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+
+}
+td{
+    background-color: rgb(74, 74, 74);
+    color: rgb(232, 226, 214);
+}
+.titulo{
+    background-color: white;
+}
+
+
+.campoBatalla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 0px 10px 0px 10px ;
+
 }
 
 
 
+.textMensajes{
+    font-size: 25px;
+}
+
+.imgBatalla{
+    border-radius: 50%;
+    width: 100px;
+    
+}
+
+.btnAtaques{
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.btnAtaques:hover{
+    border: 2px solid red;
+    cursor: pointer;
+    margin: 18px;
+}
 
 
