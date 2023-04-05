@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Ejercicio 7</title>
+  </head>
+  <body>
+    <header></header>
+    <main class=" container">
+      
+      
+        <div class="row d-flex justify-content-md-end mt-5 " >
+          <table class=" col-2 ">
+            
+            <thead class="">
+              <tr>
+                <th colspan="3" class="titulo">Partidas</th>
+              </tr>
+              <tr class="">
+                
+                <th >Ganadas</th>
+                <th >Empate</th>
+                <th >Perdidas</th>
+              </tr>
+            </thead>
+            <tbody class="">
+              <tr class="">
+                
+                <td  id="puntosJugados">0</td>
+
+                <td id="puntosEmpate">0</td>
+                <td id="puntosPerdida">0</td>
+              </tr>
+              
+            </tbody>
+          </table>
+
+          <h1>Piedra | Papel | Tijeras</h1>
+       
+       
+          <h2>Elije un ataque</h2>
+        <div class="row">
+          <div class="col-6">
+            <img id="btnPiedra" class="btnAtaques" src="img/Piedra.png" alt="">
+            <img id="btnPapel" class="btnAtaques" src="img/Papel.PNG" alt="">
+            <img id="btnTijeras" class="btnAtaques" src="img/Tijeras.PNG" alt="">
+          </div>
+        </div>
+        </div>
+        <div>
+          <p id="msjBatalla" class="textMensajes"> </p>
+        <div id="campoBatalla" class="campoBatalla col-6">
+         
+          <div id="imgAtaqueJugador" class="cajaBatala"></div>
+          <div class="cajaBatala"><p class="textMensajes">VS</p></div>
+          <div id="imgAtaquePc" class="cajaBatala"></div>
+          <div>
+        </div>
+      
+        </div>
+        
+      </div>
+      </section>
+      <footer></footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/piedraPapelTijeras.js"></script>
+  </body>
+</html>
